@@ -15,12 +15,12 @@ Transforms a conll tag file to paragraphs of text, and removes all the tags.
 Transforms a conll tag file to annotations using nltk.pos_tag tags.
 
 ### txt_to_chunk.py
-Transforms a text file to chunks, using a basic grammar {<DT>?<JJ>*<NN>} to recognize compound words. Stores it into raw strings.
+Transforms a text file to chunks, using a basic grammar ```{<DT>?<JJ>*<NN>}``` to recognize compound words. Stores it into raw strings.
 
 ### txt_to_chunk-gen.py
 Transforms a text file to chunks, using a extended ( = generalized) grammar to recognize compound words. This version includes singular/plural nouns, and singuar/plural proper nouns. Stores the data filtered by grammar.
 
-###txt_to_named_entities.py
+### txt_to_named_entities.py
 Reads a text file to look for named entities using nltk.ne_chunk, and stores only the named entities in the output file.
 
 ### named_entities_to_univ.py
