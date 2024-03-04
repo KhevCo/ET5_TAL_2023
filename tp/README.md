@@ -1,4 +1,4 @@
-### >>> Before starting anything, execute init_tp.py to download all the required packages <<<
+# >>> Before starting anything, execute init_tp.py to download all the required packages <<<
 
 Note : all python programms are executable without any arguments. For further tests (if needed), change the arguments passed in the call of function (call of function is always the last line before printing "success !")
 
