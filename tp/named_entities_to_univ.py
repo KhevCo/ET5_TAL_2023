@@ -3,6 +3,7 @@ import re
 def convert_tags_ne_to_univ(in_file_name, out_file_name, convert_file_name):
 	convert_file = open(convert_file_name)
 	convert_lines = convert_file.read().split('\n')
+	convert_file.close()
 	convert_tags = []
 	for line in convert_lines :
 		convert_tags.append(re.split(r' +', line))
